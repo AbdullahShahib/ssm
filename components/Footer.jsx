@@ -179,7 +179,7 @@ export default function Footer() {
                 {/* Contact */}
                 <div className="footer-column">
                     <span className="footer-badge">contact</span>
-                    <a href="mailto:hello@truus.co" className="footer-email">hello@truus.co</a>
+                    <a href="mailto:hello@socialinsights.smm" className="footer-email">hello@socialinsights.smm</a>
                     <a href="#" className="footer-whatsapp">send us a whatsapp*</a>
                     <p className="footer-note">*we&apos;re millennials and gen-z: please do not call us.</p>
                     <div className="footer-socials" id="footer-socials">
@@ -198,7 +198,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/* Big TRUUS wordmark */}
+            {/* Big socialinsights.smm wordmark */}
             <div className="footer-bottom">
                 <div className="footer-big-text">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1368 304" fill="none" className="footer-logo__svg">
