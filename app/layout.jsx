@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-    title: 'socialinsights.smm — We make advertising for you',
-    description: 'socialinsights.smm is a creative advertising agency specialising in brand strategy, social media, video production, and activations.',
+    title: 'socialinsights.smm — Social Media Manager Portfolio',
+    description: 'A portfolio for a social media manager featuring strategy, content creation, community growth, reporting, and selected campaign work.',
     icons: {
         icon: 'https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/68381362603d6402ee03c00e_favicon.png',
     },
@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className="template-no-text">
+        <html lang="en">
             <body>{children}</body>
         </html>
     );

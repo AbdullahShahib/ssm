@@ -1,6 +1,6 @@
-# socialinsights.smm — Awwward-Winning Web Design Clone
+# socialinsights.smm — Social Media Manager Portfolio
 
-A highly interactive, visually stunning recreation of the **socialinsights.smm** website, rebuilt as a **Next.js + React** application. This project captures the bold aesthetics, playful interactivity, and smooth motion design characteristic of Awwward-winning websites — with every pixel and every frame of animation faithfully recreated.
+A highly interactive, visually styled **social media manager portfolio** built with **Next.js + React**. It includes a portfolio hero, work highlights, services, metrics, platform experience, and a contact section.
 
 
 <table>
@@ -22,10 +22,10 @@ A highly interactive, visually stunning recreation of the **socialinsights.smm**
 
 ## 🚀 Overview
 
-This project is a high-fidelity clone of the socialinsights.smm advertising agency website. The codebase was originally built in vanilla HTML/CSS/JS and has been **fully transformed to Next.js 15 + React 19**, with all animations, interactions, and assets ported 1:1.
+This project is a portfolio site for a social media manager. The layout is designed to showcase strategy, content creation, growth, reporting, and collaborations in a polished scroll-driven presentation.
 
 ### ⚠️ Note on the Hero Video
-the original socialinsights.smm website uses a privately-hosted Vimeo video. Due to **Vimeo's Domain-Level Privacy Settings**, the video is restricted to the `socialinsights.smm` domain. The hero component uses a standard HTML5 `<video>` element with the `src` commented out, rendering a solid dark background. Place your `.mp4` in `public/` and update the source in `VimeoHero.jsx`.
+The hero keeps a dark, cinematic background so the portfolio copy and motion design remain the focus. You can replace the placeholder video source in `VimeoHero.jsx` with your own reel later.
 
 ---
 
@@ -249,4 +249,4 @@ Made with ❤️ by **Arkyadeep Pal**, **Soumyakanta Mitra** and **Anshu Ram**, 
 
 ## 📄 License
 
-This project is for educational and portfolio purposes. All original brand assets belong to socialinsights.smm.
+This project is a portfolio template. Replace the placeholder text, links, and imagery with your own brand assets and case studies.

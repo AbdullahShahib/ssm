@@ -187,14 +187,14 @@ export default function VimeoHero() {
 
                 {/* ① Headline — bottom left, word-by-word layout */}
                 <div className="home-header__title">
-                    <h1 className="vimeo-hero__title" ref={titleRef} onClick={(e) => e.stopPropagation()}>
+                    <h1 className="vimeo-hero__title" ref={titleRef} onClick={(e) => e.stopPropagation()} aria-label="social media manager portfolio">
 
-                        {/* "we" */}
-                        <span className="vimeo-hero__word">we </span>
+                        {/* portfolio opener */}
+                        <span className="vimeo-hero__word">social </span>
 
                         {/* "make" + ⑤ smiley (no animation) */}
                         <span className="vimeo-hero__word is--relative">
-                            <span>make </span>
+                            <span>media </span>
                             <div className="home-header__smiley">
                                 <img
                                     src="/assets/VimeoHero SVG/smiley-face.svg"
@@ -204,16 +204,16 @@ export default function VimeoHero() {
                             </div>
                         </span>
 
-                        {/* "advertising" italic */}
-                        <span className="vimeo-hero__word"><em>advertising </em></span>
+                        {/* portfolio focus */}
+                        <span className="vimeo-hero__word"><em>manager </em></span>
 
                         {/* "for" */}
                         <span className="vimeo-hero__word">for </span>
 
                         <div style={{ flexBasis: '100%', height: 0 }} />
 
-                        <span className="vimeo-hero__word">the </span>
-                        <span className="vimeo-hero__word">new </span>
+                        <span className="vimeo-hero__word">portfolio </span>
+                        <span className="vimeo-hero__word">that </span>
 
                         {/* "mainstream" + ⑤ pink star (no spin) + oval underline */}
                         <span className="vimeo-hero__word is--relative">
@@ -232,7 +232,7 @@ export default function VimeoHero() {
                                 alt=""
                                 className="home-header__title-line-svg"
                             />
-                            <span>mainstream</span>
+                            <span>gets noticed</span>
                         </span>
 
                     </h1>
