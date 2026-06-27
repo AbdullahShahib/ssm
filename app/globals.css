@@ -25,3 +25,37 @@
 /* Custom cursor bubble + scribble overlay  */
 @import './styles/responsive.css';
 /* All media queries (tablet + mobile)      */
+
+/* Template mode: hide all visible textual content while preserving layout and images.
+   Applied by adding `template-no-text` to the `<html>` element in `app/layout.jsx`.
+   Targets common text elements but intentionally excludes SVG and IMG so graphics remain visible. */
+.template-no-text h1,
+.template-no-text h2,
+.template-no-text h3,
+.template-no-text h4,
+.template-no-text h5,
+.template-no-text h6,
+.template-no-text p,
+.template-no-text li,
+.template-no-text a,
+.template-no-text span,
+.template-no-text button,
+.template-no-text label,
+.template-no-text figcaption,
+.template-no-text small {
+   color: transparent !important;
+   text-shadow: none !important;
+}
+
+/* Remove visible text from pseudo-elements too */
+.template-no-text h1::before, .template-no-text h1::after,
+.template-no-text h2::before, .template-no-text h2::after,
+.template-no-text h3::before, .template-no-text h3::after,
+.template-no-text p::before, .template-no-text p::after,
+.template-no-text li::before, .template-no-text li::after,
+.template-no-text a::before, .template-no-text a::after,
+.template-no-text span::before, .template-no-text span::after {
+   color: transparent !important;
+   text-shadow: none !important;
+   content: "" !important;
+}
